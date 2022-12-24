@@ -1,0 +1,35 @@
+body {
+    background-color: #36393F;
+}
+img {
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+button {
+    background-color: #7289DA;
+    border: none;
+    padding: 20px;
+    border-color: #7289DA;
+    border-radius: 4px;
+    margin: -25px 0 0 -25px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transition-duration: 200ms;
+}
+button:hover {
+    background-color: #4854c4;
+    transition-duration: 200ms;
+}
+span {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    position: static;
+    color: white;
+    padding: 0px;
+}
